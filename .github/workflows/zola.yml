@@ -14,7 +14,7 @@ jobs:
           submodules: true
 
       - run: 'wget -q -O -
-          "https://github.com/getzola/zola/releases/download/${{version}}/zola-${{version}}-x86_64-unknown-linux-gnu.tar.gz"
+          "https://github.com/getzola/zola/releases/download/${{env.version}}/zola-${{env.version}}-x86_64-unknown-linux-gnu.tar.gz"
           | tar xzf - -C /usr/local/bin'
         shell: bash
         env:
