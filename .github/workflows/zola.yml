@@ -5,25 +5,20 @@ on:
     branches:
       - gh-pages
 
-inputs:
-  version:
-    description: "Zola version to use"
-    required: true
-    default: "v0.19.1"
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    using: "composite"
     steps:
       - uses: actions/checkout@v4
         with:
           submodules: true
 
       - run: 'wget -q -O -
-          "https://github.com/getzola/zola/releases/download/${{ inputs.version }}/zola-${{ inputs.version }}-x86_64-unknown-linux-gnu.tar.gz"
+          "https://github.com/getzola/zola/releases/download/$zola-version/zola-$zola-version-x86_64-unknown-linux-gnu.tar.gz"
           | tar xzf - -C /usr/local/bin'
         shell: bash
+        env:
+          zola-version: "v0.19.1"
 
       - run: zola build
         shell: bash
