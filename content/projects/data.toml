@@ -1,0 +1,15 @@
+[[project]]
+name = "rano-oss.github.io"
+desc = "My personal blog and portfolio built with Zola and the Kita theme."
+tags = ["Zola", "Rust", "TailwindCSS"]
+[[project.links]]
+name = "GitHub"
+url = "https://github.com/rano-oss/rano-oss.github.io"
+
+[[project]]
+name = "Hello World Project"
+desc = "A sample project to demonstrate the Projects page layout."
+tags = ["Sample", "Demo"]
+[[project.links]]
+name = "Demo"
+url = "$BASE_URL"

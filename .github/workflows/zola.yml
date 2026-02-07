@@ -18,7 +18,7 @@ jobs:
           | tar xzf - -C /usr/local/bin'
         shell: bash
         env:
-          version: "v0.19.1"
+          version: "v0.19.2"
 
       - run: zola build
         shell: bash
