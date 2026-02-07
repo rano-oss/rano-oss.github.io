@@ -1,15 +1,23 @@
 [[project]]
-name = "rano-oss.github.io"
-desc = "My personal blog and portfolio built with Zola and the Kita theme."
-tags = ["Zola", "Rust", "TailwindCSS"]
+name = "chewingwl"
+desc = "A Wayland native input method frontend for the Chewing(Traditional Chinese) library."
+tags = ["Wayland", "Rust", "Input Method", "Chewing", "Traditional Chinese"]
 [[project.links]]
 name = "GitHub"
-url = "https://github.com/rano-oss/rano-oss.github.io"
+url = "https://github.com/rano-oss/chewingwl"
 
 [[project]]
-name = "Hello World Project"
-desc = "A sample project to demonstrate the Projects page layout."
-tags = ["Sample", "Demo"]
+name = "wkb"
+desc = "A Wayland keyboard descriptions/layouts handling library."
+tags = ["Wayland", "Rust", "Linux"]
 [[project.links]]
-name = "Demo"
-url = "$BASE_URL"
+name = "GitHub"
+url = "https://github.com/rano-oss/wkb"
+
+[[project]]
+name = "libchinese"
+desc = "A rewrite of libinyin and libzhuyin in rust, just for fun to test out modern LLM capabilities."
+tags = ["Rust", "Chinese", "Library", "Pinyin", "Zhuyin"]
+[[project.links]]
+name = "GitHub"
+url = "https://github.com/rano-oss/libchinese"
