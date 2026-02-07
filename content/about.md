@@ -1,7 +1,8 @@
 +++
 title = "About"
-date = 2024-11-19
+date = 2026-02-07
 template = "page.html"
+transparent = true
 +++
 
 # About Me

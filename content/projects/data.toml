@@ -16,7 +16,7 @@ url = "https://github.com/rano-oss/wkb"
 
 [[project]]
 name = "libchinese"
-desc = "A rewrite of libinyin and libzhuyin in rust, just for fun to test out modern LLM capabilities."
+desc = "A rewrite of libinyin and libzhuyin in rust, just for fun, to test out modern LLM capabilities."
 tags = ["Rust", "Chinese", "Library", "Pinyin", "Zhuyin"]
 [[project.links]]
 name = "GitHub"
