@@ -32,7 +32,7 @@ comment = false
 
 [extra.profile]
 name = "Eivind Gamst"
-bio = "Welcome to my Zola site."
+bio = "Welcome to my personal blog."
 avatar_url = "icons/github.svg"
 avatar_invert = true
 
