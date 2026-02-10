@@ -2,7 +2,7 @@
 base_url = "https://rano-oss.github.io"
 
 title = "Eivind Gamst"
-description = "A clean, elegant and simple blog"
+description = "A blog"
 theme = "kita"
 
 # Whether to automatically compile all Sass files in the sass directory
@@ -30,11 +30,11 @@ math = false
 mermaid = false
 comment = false
 
-[extra.profile]
-name = "Eivind Gamst"
-bio = "Welcome to my personal blog."
-avatar_url = "icons/github.svg"
-avatar_invert = true
+# [extra.profile]
+# name = "Eivind Gamst"
+# bio = "Welcome to my personal blog."
+# avatar_url = "icons/github.svg"
+# avatar_invert = true
 
 [[extra.menu]]
 name = "Projects"
